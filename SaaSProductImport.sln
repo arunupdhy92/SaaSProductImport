@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32407.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaaSProductImport", "SaaSProductImport\SaaSProductImport.csproj", "{0184B275-AF31-4E6F-92BB-B3870ED70E56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{50979FC6-06A9-492F-B050-0E4A4B975A21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0184B275-AF31-4E6F-92BB-B3870ED70E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0184B275-AF31-4E6F-92BB-B3870ED70E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0184B275-AF31-4E6F-92BB-B3870ED70E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0184B275-AF31-4E6F-92BB-B3870ED70E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50979FC6-06A9-492F-B050-0E4A4B975A21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50979FC6-06A9-492F-B050-0E4A4B975A21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50979FC6-06A9-492F-B050-0E4A4B975A21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50979FC6-06A9-492F-B050-0E4A4B975A21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D7C438F-3E0D-4D3B-AEF4-605F6825490A}
+	EndGlobalSection
+EndGlobal
