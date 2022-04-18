@@ -31,12 +31,12 @@ namespace SaaSProductImport.Service
 
                 if(isAllowedFile)
                 {
-                    if(filePath.Contains(Capterra))
+                    if(filePath.ToLower().Contains(Capterra))
                     {
                         await FetchCapterraProducts(filePath);
                         return true;
                     }
-                    else if(filePath.Contains(SoftwareAdvice))
+                    else if(filePath.ToLower().Contains(SoftwareAdvice))
                     {
                         await FetchSoftwareAdviceProducts(filePath);
                         return true;
